@@ -1,6 +1,6 @@
 # GoBashParser
 
-This is a "bash parser" program, written in Golang.
+This is a "bash parser" program, written in [Golang](https://go.dev).
 It supports the following bash commands:
 
  * `ls` Command
