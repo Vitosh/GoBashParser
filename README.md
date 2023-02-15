@@ -25,7 +25,7 @@ This program is a command-line interface (CLI) tool that allows users to execute
 * `touch` - Create file
 * `curl` - Displays the HTML of a web resource
 * `log` - Shows data in log file
-* `catsneeded` - Show cat pictures to make you smile :)
+* `catsneeded` - Show cat pictures to make you smile :joy:
 * `info` - See available commands again
 * `exit` - Exit the program
 
