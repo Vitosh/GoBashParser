@@ -18,9 +18,11 @@ import (
 func main() {
 
 	fmt.Print(fun.ShowCatsWelcome())
+	lib.MoveFilesToArchDir()
+	lib.CreatePathName()
 
-	lib.CreatePath()
 	logFile, err := os.Create(lib.LogPath)
+
 	if err != nil {
 		log.Fatalf("Failed to create log file: %v", err)
 	}
@@ -169,7 +171,7 @@ func listDirectory(path string) {
 	files, err := filepath.Glob(filepath.Join(path, "*"))
 	if err != nil {
 		log.Printf("Error running ls command with path %s: %v\n", path, err)
-		fmt.Printf("Error! Please, check log file:\n %s", lib.LogPath)
+		fmt.Print(lib.PleaseCheckLogError())
 		return
 	}
 
@@ -183,7 +185,7 @@ func changeDirectory(path string) {
 	err := os.Chdir(path)
 	if err != nil {
 		log.Printf("Error running cd command with path %s: %v\n", path, err)
-		fmt.Printf("Error! Please, check log file:\n %s", lib.LogPath)
+		fmt.Print(lib.PleaseCheckLogError())
 		return
 	}
 	msg := fmt.Sprintf("Changed directory to %s\n", path)
@@ -197,7 +199,7 @@ func makeDirectory(path string) {
 
 	if err != nil {
 		log.Printf("Error running mkdir command with path %s: %v\n", path, err)
-		fmt.Printf("Error! Please, check log file:\n %s", lib.LogPath)
+		fmt.Print(lib.PleaseCheckLogError())
 		return
 	}
 
@@ -211,7 +213,7 @@ func printWorkingDirectory() {
 	wd, err := os.Getwd()
 	if err != nil {
 		log.Printf("Error running pwd command: %v\n", err)
-		fmt.Printf("Error! Please, check log file:\n %s", lib.LogPath)
+		fmt.Print(lib.PleaseCheckLogError())
 		return
 	}
 
@@ -238,11 +240,12 @@ func fetchURL(url string, w io.Writer) error {
 
 	return nil
 }
+
 func createFile(path string) (*os.File, error) {
 	f, err := os.Create(path)
 	if err != nil {
 		log.Printf("Error running touch command with path %s: %v\n", path, err)
-		fmt.Printf("Error! Please, check log file:\n %s\n", lib.LogPath)
+		fmt.Print(lib.PleaseCheckLogError())
 		return nil, err
 	}
 	msg := fmt.Sprintf("Created file %s\n", path)
@@ -256,7 +259,7 @@ func removeFile(path string) {
 	err := os.Remove(path)
 	if err != nil {
 		log.Printf("Error running rm command for [%s]: %v\n", path, err)
-		fmt.Printf("Error! Please, check log file:\n %s\n", lib.LogPath)
+		fmt.Print(lib.PleaseCheckLogError())
 		return
 	}
 

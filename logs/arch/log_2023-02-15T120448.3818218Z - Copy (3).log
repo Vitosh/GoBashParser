@@ -1,0 +1,11 @@
+2023/02/15 14:04:48 Log file is created...
+2023/02/15 14:04:48 Info accessed
+2023/02/15 14:04:50 Running command: hidden
+2023/02/15 14:04:53 Running command: info
+2023/02/15 14:04:53 Info accessed
+2023/02/15 14:05:00 Running command: rm
+2023/02/15 14:05:00 Error running rm command: missing argument
+2023/02/15 14:05:04 Running command: ?
+2023/02/15 14:05:04 Unknown command: ?
+2023/02/15 14:05:06 Running command: rm
+2023/02/15 14:05:06 Error running rm command: missing argument

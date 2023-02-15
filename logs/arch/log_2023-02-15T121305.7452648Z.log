@@ -1,0 +1,49 @@
+2023/02/15 14:13:05 Log file is created...
+2023/02/15 14:13:05 Info accessed
+2023/02/15 14:13:08 Running command: ## possible next steps
+2023/02/15 14:13:08 Unknown command: ##
+2023/02/15 14:13:12 Running command: adsf
+2023/02/15 14:13:12 Unknown command: adsf
+2023/02/15 14:13:14 Running command: asdffdsa
+2023/02/15 14:13:14 Unknown command: asdffdsa
+2023/02/15 14:13:15 Running command: asdffsd
+2023/02/15 14:13:15 Unknown command: asdffsd
+2023/02/15 14:13:18 Running command: ls
+2023/02/15 14:13:18 Output of ls command with path .:
+[cover.out fun lib main.exe main.go main_test.go]
+2023/02/15 14:13:29 Running command: ls c:
+2023/02/15 14:13:29 Output of ls command with path .:
+[cover.out fun lib main.exe main.go main_test.go]
+2023/02/15 14:13:35 Running command: ls "c:"
+2023/02/15 14:13:35 Output of ls command with path .:
+[cover.out fun lib main.exe main.go main_test.go]
+2023/02/15 14:13:38 Running command: ls "c:"
+2023/02/15 14:13:38 Output of ls command with path .:
+[cover.out fun lib main.exe main.go main_test.go]
+2023/02/15 14:13:43 Running command: cd ..
+2023/02/15 14:13:43 Changed directory to ..
+2023/02/15 14:13:48 Running command: ls
+2023/02/15 14:13:48 Output of ls command with path .:
+[.git .gitignore LICENSE README.md cmd info.txt logs]
+2023/02/15 14:13:55 Running command: cd ..
+2023/02/15 14:13:55 Changed directory to ..
+2023/02/15 14:13:56 Running command: ls
+2023/02/15 14:13:56 Output of ls command with path .:
+[GoBashParser Golang Lesson_03 Presentations arch]
+2023/02/15 14:13:59 Running command: dir
+2023/02/15 14:13:59 Unknown command: dir
+2023/02/15 14:14:04 Running command: log
+2023/02/15 14:14:04 Error opening log file: open ../logs/log_2023-02-15T121305.7452648Z.log: The system cannot find the path specified.
+2023/02/15 14:14:10 Running command: log
+2023/02/15 14:14:10 Error opening log file: open ../logs/log_2023-02-15T121305.7452648Z.log: The system cannot find the path specified.
+2023/02/15 14:14:11 Running command: log
+2023/02/15 14:14:11 Error opening log file: open ../logs/log_2023-02-15T121305.7452648Z.log: The system cannot find the path specified.
+2023/02/15 14:14:12 Running command: log
+2023/02/15 14:14:12 Error opening log file: open ../logs/log_2023-02-15T121305.7452648Z.log: The system cannot find the path specified.
+2023/02/15 14:14:14 Running command: info
+2023/02/15 14:14:14 Info accessed
+2023/02/15 14:14:16 Running command: log
+2023/02/15 14:14:16 Error opening log file: open ../logs/log_2023-02-15T121305.7452648Z.log: The system cannot find the path specified.
+2023/02/15 14:14:18 Running command: exit
+2023/02/15 14:14:18 Exit successful :)
+2023/02/15 14:14:18 Thank you for using our services!

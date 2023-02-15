@@ -6,6 +6,7 @@ This program is a command-line interface (CLI) tool that allows users to execute
 * Basic file manipulation commands (`cd`, `ls`, `touch`, `rm`, `mkdir`, `pwd`)
 * Ability to fetch the HTML of a web resource using the `curl` command
 * Log file for keeping track of executed commands
+    * Old log files are kept into a subfolder ../logs/arch automatically
 * Fun cat pictures upon request :cat::dog::elf:
 
 ## How to use
@@ -27,6 +28,8 @@ This program is a command-line interface (CLI) tool that allows users to execute
 * `catsneeded` - Show cat pictures to make you smile :)
 * `info` - See available commands again
 * `exit` - Exit the program
+
+[](./dox/pics/welcome_goodbye_screen.PNG)
 
 ### Examples
 ```
