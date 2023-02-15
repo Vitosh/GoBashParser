@@ -69,10 +69,12 @@ This program is a command-line interface (CLI) tool that allows users to execute
 
 ### Screens
 #### Welcome screen
-![](./dox/pics/welcome_goodbye_screen.png)
-#### Tests
-![](./dox/pics/tests_simple.png)
 
+![](./dox/pics/welcome_goodbye_screen.png)
+
+#### Tests
+
+![](./dox/pics/tests_simple.png)
 
 ## Note
 This program is for educational purposes only.
