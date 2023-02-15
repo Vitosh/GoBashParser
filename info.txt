@@ -1,0 +1,6 @@
+go test -coverprofile true
+go test -coverprofile=cover.out & go tool cover -html=cover.out
+
+go build main.go
+go run main go
+go test -v

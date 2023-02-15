@@ -1,0 +1,7 @@
+2023/02/15 02:34:29 Log file is created...
+2023/02/15 02:34:29 Info accessed
+2023/02/15 02:34:39 Running command: mkdir foobar.foo
+2023/02/15 02:34:39 New directory created ->foobar.foo
+2023/02/15 02:34:46 Running command: rm foobar.foo
+2023/02/15 02:34:46 Removed file [foobar.foo]
+2023/02/15 02:36:21 Error reading input: EOF

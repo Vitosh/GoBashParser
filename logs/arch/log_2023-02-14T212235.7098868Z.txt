@@ -1,0 +1,5 @@
+2023/02/14 23:22:35 Log file is created...
+2023/02/14 23:22:35 info accessed
+2023/02/14 23:22:40 Running command: rm foobartoday
+2023/02/14 23:22:40 Error running rm command for [foobartoday]: remove foobartoday: The system cannot find the file specified.
+2023/02/14 23:22:48 Running command: 

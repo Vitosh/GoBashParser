@@ -1,0 +1,22 @@
+2023/02/14 23:22:51 Log file is created...
+2023/02/14 23:22:51 info accessed
+2023/02/14 23:22:52 Running command: asdf
+2023/02/14 23:22:52 Unknown command: asdf
+2023/02/14 23:22:56 Running command: rm asdf
+2023/02/14 23:22:56 Error running rm command for [asdf]: remove asdf: The system cannot find the file specified.
+2023/02/14 23:23:11 Running command: log
+2023/02/14 23:24:52 Running command: adsf
+2023/02/14 23:24:52 Unknown command: adsf
+2023/02/14 23:25:00 Running command: vitosg
+2023/02/14 23:25:00 Unknown command: vitosg
+2023/02/14 23:25:15 Running command: info
+2023/02/14 23:25:15 Unknown command: info
+2023/02/14 23:25:16 Running command: info
+2023/02/14 23:25:16 Unknown command: info
+2023/02/14 23:25:17 Running command: info
+2023/02/14 23:25:17 Unknown command: info
+2023/02/14 23:27:45 Running command: curl vitoshacademy.com
+2023/02/14 23:27:45 Error running curl command: Get "vitoshacademy.com": unsupported protocol scheme ""
+2023/02/14 23:28:00 Running command: curl https://vitoshacademy.com
+2023/02/14 23:28:00 Output of curl command:
+2023/02/14 23:28:02 Running command: 

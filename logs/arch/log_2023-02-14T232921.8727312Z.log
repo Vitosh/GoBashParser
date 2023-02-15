@@ -1,0 +1,20 @@
+2023/02/15 01:29:21 Log file is created...
+2023/02/15 01:29:21 Info accessed
+2023/02/15 01:29:52 Running command: curl https://vitoshacademy.com
+2023/02/15 01:29:54 Running command: a
+2023/02/15 01:29:54 Unknown command: a
+2023/02/15 01:29:55 Running command: d
+2023/02/15 01:29:55 Unknown command: d
+2023/02/15 01:29:56 Running command: c
+2023/02/15 01:29:56 Unknown command: c
+2023/02/15 01:29:56 Running command: d
+2023/02/15 01:29:56 Unknown command: d
+2023/02/15 01:29:57 Running command: d
+2023/02/15 01:29:57 Unknown command: d
+2023/02/15 01:29:57 Running command: e
+2023/02/15 01:29:57 Unknown command: e
+2023/02/15 01:29:58 Running command: as
+2023/02/15 01:29:58 Unknown command: as
+2023/02/15 01:29:58 Running command: d
+2023/02/15 01:29:58 Unknown command: d
+2023/02/15 01:31:34 Error reading input: EOF

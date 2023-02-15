@@ -1,0 +1,8 @@
+2023/02/14 23:20:55 Log file is created...
+2023/02/14 23:20:55 info accessed
+2023/02/14 23:21:04 Running command: rm www.vitoshacademy.com
+2023/02/14 23:21:04 Output of rm command: removed file
+2023/02/14 23:21:10 Running command: rm foobar
+2023/02/14 23:21:10 Error running rm command: remove foobar: The system cannot find the file specified.
+2023/02/14 23:21:18 Running command: log
+2023/02/14 23:22:32 Error reading input: EOF

@@ -1,0 +1,20 @@
+2023/02/15 13:54:45 Log file is created...
+2023/02/15 13:54:45 Info accessed
+2023/02/15 13:54:51 Running command: ls
+2023/02/15 13:54:51 Output of ls command with path .:
+[cover.out lib main.exe main.go main_test.go pics]
+2023/02/15 13:55:06 Running command: pwd
+2023/02/15 13:55:06 pwd - [C:\Users\gro\Documents\Golang\GoBashParser\cmd]
+2023/02/15 13:55:11 Running command: log
+2023/02/15 13:55:11 Log accessed
+2023/02/15 13:55:14 Running command: info
+2023/02/15 13:55:14 Info accessed
+2023/02/15 13:55:15 Running command: log
+2023/02/15 13:55:15 Log accessed
+2023/02/15 13:55:29 Running command: curl https://vitoshacademy.com
+2023/02/15 13:55:37 Running command: cats
+2023/02/15 13:55:37 Unknown command: cats
+2023/02/15 13:56:34 Running command: catsneeded
+2023/02/15 13:56:38 Running command: exit
+2023/02/15 13:56:38 Exit successful :)
+2023/02/15 13:56:38 Thank you for using our services!

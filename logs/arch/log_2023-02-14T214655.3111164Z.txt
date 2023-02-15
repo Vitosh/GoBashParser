@@ -1,0 +1,30 @@
+2023/02/14 23:46:55 Log file is created...
+2023/02/14 23:46:55 Info accessed.
+2023/02/14 23:47:05 Running command: curl https://vitoshacademy.com
+2023/02/14 23:47:06 Output of curl command: 	<!doctype html>
+	<!--[if !IE]>
+	<html class="no-js non-ie" lang="en-US"> <![endif]-->
+	<!--[if IE 7 ]>
+	<html class="no-js ie7" lang="en-US"> <![endif]-->
+	<!--[if IE 8 ]>
+	<html class="no-js ie8" lang="en-US"> <![endif]-->
+	<!--[if IE 9 ]>
+	<html class="no-js ie9" lang="en-US"> <![endif]-->
+	<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en-US"> <!--<![endif]-->
+	<head>
+
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="profile" href="http://gmpg.org/xfn/11"/>
+		<link rel="pingback" href="https://www.vitoshacademy.com/xmlrpc.php"/>
+
+		<title>Useful code &#8211; Programming with VBA, C# and Python</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//pagead2.googlesyndication.com' />
+<link rel="alternate" type="application/rss+xml" title="Useful code &raquo; Feed" href="https://www.vitoshacademy.com/feed/" />
+<script
+... the first 1000 characters of the body are present only
+2023/02/14 23:50:54 Error reading input: EOF

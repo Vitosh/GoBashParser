@@ -1,0 +1,14 @@
+2023/02/14 23:19:17 Log file is created...
+2023/02/14 23:19:17 info accessed
+2023/02/14 23:19:31 Running command: touch www.vitoshacademy.com
+2023/02/14 23:19:31 Output of touch command with path www.vitoshacademy.com: created file www.vitoshacademy.com
+2023/02/14 23:19:51 Running command: ls
+2023/02/14 23:19:51 Output of ls command with path .:
+[lib main.go www.vitoshacademy.com]
+2023/02/14 23:19:56 Running command: ls .
+2023/02/14 23:19:56 Output of ls command with path .:
+[lib main.go www.vitoshacademy.com]
+2023/02/14 23:20:03 Running command: pwd
+2023/02/14 23:20:47 Running command: rm www.vi
+2023/02/14 23:20:47 Error running rm command: remove www.vi: The system cannot find the file specified.
+2023/02/14 23:20:50 Running command: 
