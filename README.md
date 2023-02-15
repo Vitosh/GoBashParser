@@ -29,7 +29,6 @@ This program is a command-line interface (CLI) tool that allows users to execute
 * `info` - See available commands again
 * `exit` - Exit the program
 
-
 ### Examples
 #### Code
 ```
