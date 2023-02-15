@@ -79,12 +79,9 @@ It is not meant to be used in a production environment.
 ### Not so quick wins
 * Implement the program as a web service instead of a CLI
 * Add support for environment variables
-* Add support for piping commands:
-```
-    func runPipe(cmd1, cmd2 string)
-```
+* Add support for piping commands - `func runPipe(cmd1, cmd2 string)`
 * Add support for tab completion
 * Create a Dockerfile to build and run the program inside a container
 * Add support for scripts or aliases so users can create their own custom commands
 
-### Thank you for your attention!:smile:
+### Thank you for your attention!:smile::school::dance:
