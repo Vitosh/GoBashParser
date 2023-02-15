@@ -72,7 +72,7 @@ It is not meant to be used in a production environment.
 
 ### Bugs fixing
 * When the directory is changed, the `log` command does not function:
-`2023/02/15 14:14:04 Error opening log file: open ../logs/log_2023-02-15T121305.7452648Z.log: The system cannot find the path specified.`
+```2023/02/15 14:14:04 Error opening log file: open ../logs/log_2023-02-15T121305.7452648Z.log: The system cannot find the path specified.```
 
 ### Quick wins
 * Improve error handling and error messages
