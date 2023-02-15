@@ -74,6 +74,10 @@ It is not meant to be used in a production environment.
 * When the directory is changed, the `log` command does not function:
 ```2023/02/15 14:14:04 Error opening log file: open ../logs/log_2023-02-15T121305.7452648Z.log: The system cannot find the path specified.```
 
+### Possible bugs
+* Currently not handling errors when executing `os.Create` and `os.Remove` functions. If there is an error, the function returns an error and the program continues to execute.
+* When running the `cd` command, the program does not check if the specified directory exists before attempting to change into it - `if _, err := os.Stat(path); os.IsNotExist(err)`
+
 ### Quick wins
 * Improve error handling and error messages
 * Increase test coverage
