@@ -29,9 +29,9 @@ This program is a command-line interface (CLI) tool that allows users to execute
 * `info` - See available commands again
 * `exit` - Exit the program
 
-![](./dox/pics/welcome_goodbye_screen.PNG)
 
 ### Examples
+#### Code
 ```
 > ls
 # list the contents of the current directory
@@ -66,6 +66,13 @@ This program is a command-line interface (CLI) tool that allows users to execute
 > exit
 # exit the program
 ```
+
+### Screens
+#### Welcome screen
+![](./dox/pics/welcome_goodbye_screen.png)
+#### Tests
+![](./dox/pics/tests_simple.png)
+
 
 ## Note
 This program is for educational purposes only.
