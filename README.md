@@ -6,7 +6,7 @@ This program is a command-line interface (CLI) tool that allows users to execute
 * Basic file manipulation commands (`cd`, `ls`, `touch`, `rm`, `mkdir`, `pwd`)
 * Ability to fetch the HTML of a web resource using the `curl` command
 * Log file for keeping track of executed commands
-* Fun cat pictures upon request :cat::dog::palm:
+* Fun cat pictures upon request :cat::dog::elf:
 
 ## How to use
 1. Clone the repository
@@ -86,3 +86,5 @@ It is not meant to be used in a production environment.
 * Add support for tab completion
 * Create a Dockerfile to build and run the program inside a container
 * Add support for scripts or aliases so users can create their own custom commands
+
+### Thank you for your attention!:smile:
